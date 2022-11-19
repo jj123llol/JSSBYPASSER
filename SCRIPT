@@ -1,8 +1,11 @@
+--WHY ARE YOU LOOKING AT THE SOURCE JUST USE THE LOADSTRING >:(
+
+
 --sacred#9060 was here,So was jude#1745, and so was SKM364#5480 (added my own bypasses to the list)
 --Build in anti chat logger Be safe :)
 
 local args = {
-    [1] = "Successfully ran JSS Bypass! .gg/7SYee9eYax",
+    [1] = "Successfully ran JSS Bypass! .gg/7SYee9eYax", --delete this if your gay
     [2] = "All"
 }
 
@@ -365,6 +368,7 @@ local Bypasses = {
 ["booty"] ="вооту",
 ["condom"] ="соп. dом ",
 ["reddit"] ="rёdd¡т ",
+["redditer"] ="r3dditer ",
 
 
 
