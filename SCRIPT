@@ -705,6 +705,8 @@ Notify("Psst", "Most work done  by jude <3", 15)
 wait(1.5)
 Notify("Thank you!", "Enjoy having a big dick", 15)
 
+
+wait(3)
 local args = {
     [1] = "Successfully ran JSS Bypass! .gg/7SYee9eYax", --delete this if your gay
     [2] = "All"
