@@ -4,22 +4,7 @@
 --sacred#9060 was here,So was jude#1745, and so was SKM364#5480 (added my own bypasses to the list)
 --Build in anti chat logger Be safe :)
 
-local args = {
-    [1] = "Successfully ran JSS Bypass! .gg/7SYee9eYax", --delete this if your gay
-    [2] = "All"
-}
 
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
-wait(3)
-local args = {
-    [1] = "And also ran anti chat logger!",
-    [2] = "All"
-}
-
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 
 
@@ -719,3 +704,20 @@ print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick(
 Notify("Psst", "Most work done  by jude <3", 15)
 wait(1.5)
 Notify("Thank you!", "Enjoy having a big dick", 15)
+
+local args = {
+    [1] = "Successfully ran JSS Bypass! .gg/7SYee9eYax", --delete this if your gay
+    [2] = "All"
+}
+
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(3)
+local args = {
+    [1] = "And also ran anti chat logger!",
+    [2] = "All"
+}
+
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
