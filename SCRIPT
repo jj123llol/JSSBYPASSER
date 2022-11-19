@@ -713,3 +713,5 @@ Notify("Loaded Successfully", "Anti Chat and Screenshot Logger Loaded! CREDIT : 
 print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
 
 Notify("Psst", "Most work done  by jude <3", 15)
+wait(1.5)
+Notify("Thank you!", "Enjoy having a big dick", 15)
