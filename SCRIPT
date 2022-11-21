@@ -87,7 +87,7 @@ local Bypasses = {
     ["suck"] = "sцск",
     ["fucked"] = "f. цс. кed",
     ["semen"] = "sёмёп",
-    ["slit"] = "s. l¡т",
+    ["slit"] = "s ! it",
     ["wrist"] = "шя¡s. т",
     ["wrists"] = "шя¡s. тs",
     ["gas"] = "баs",
@@ -354,7 +354,11 @@ local Bypasses = {
 ["condom"] ="соп. dом ",
 ["reddit"] ="rёdd¡т ",
 ["redditer"] ="r3dditer ",
-
+["kill yourself"] ="@killyourself ",
+["queer"] ="Qцеея ",
+["erectile"] ="еяест¡lе ",
+["dysfunction"] ="d. уsfцпст¡оп ",
+["abortion"] ="авояt¡оn ",
 
 
 
