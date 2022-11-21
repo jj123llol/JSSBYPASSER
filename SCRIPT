@@ -12,6 +12,7 @@
 
 
 
+
 local Bypasses = {
     ["ass"] = "а. s$",
     ["cumming"] = "сцмming",
@@ -727,3 +728,20 @@ local args = {
 
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+-- Gui to join discord
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Question", "DarkTheme")
+
+-- MAIN
+
+local Tab = Window:NewTab("Answer it.")
+local Section = Tab:NewSection("Wanna join the discord?")
+Section:NewButton("Copy discord link", "copies the discord", function()
+    setclipboard("https://discord.gg/WZm4qMvXPQ")
+    local Window = Library.CreateLib("Discord copied!", "DarkTheme")
+    local Tab = Window:NewTab("How 2 for dummies")
+local Section = Tab:NewSection("paste discord link into your browser to join")
+    end)
