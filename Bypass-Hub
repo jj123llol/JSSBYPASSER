@@ -12,7 +12,7 @@ OrionLib:MakeNotification({
 
 
 
-_G.Key = "Test"
+_G.Key = "Idontknowhowtoenterakey"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
@@ -23,11 +23,26 @@ function MakeScriptHub()
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Execute chat bypasser",
+	Name = "Execute Latest chat bypasser(2nd best in opinion)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/SCRIPT"))() 
 	end   
 })
+Tab:AddButton({
+	Name = "Execute 2nd version of chat bypasser(best in opinion)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/2nd_version"))() 
+
+	end   
+})
+Tab:AddButton({
+	Name = "Run 1st version of bypasser (semi-patched,worst)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/1st_version"))()
+
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Discord",
 	Icon = "rbxassetid://4483345998",
