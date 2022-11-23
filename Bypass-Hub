@@ -1,0 +1,91 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "Keysystem", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroEnabled = false})
+
+OrionLib:MakeNotification({
+	Name = "Logged in!",
+	Content = "You are logged in as "..Player.Name.." ",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+
+
+_G.Key = "Test"
+_G.KeyInput = "string"
+
+function MakeScriptHub()
+    local Window = OrionLib:MakeWindow({Name = "MAIN", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Tab = Window:MakeTab({
+	Name = "Chat bypasser",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Execute chat bypasser",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/SCRIPT"))() 
+	end   
+})
+local Tab = Window:MakeTab({
+	Name = "Discord",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Copy Discord server link",
+	Callback = function()
+      		setclipboard("https://discord.gg/WZm4qMvXPQ")
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied Discord link",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+end --ENDING FOR ACTUAL HUB
+
+function CorrectKeyNotification()
+OrionLib:MakeNotification({
+	Name = "Correct Key!",
+	Content = "You have entered the correct key!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+end
+function IncorrectKeyNotification()
+OrionLib:MakeNotification({
+	Name = "Incorrect Key!",
+	Content = "You have entered the Incorrect key,Please get it from the discord!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+end
+
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Enter Key",
+	Default = "",
+	TextDisappear = false,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end	  
+})
+Tab:AddButton({
+	Name = "Check Key!",
+	Callback = function()
+      		if _G.KeyInput == _G.Key then
+      		    MakeScriptHub()
+      		    CorrectKeyNotification()
+      		    else
+      		       IncorrectKeyNotification() 
+      		 end
+  	end    
+})
