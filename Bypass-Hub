@@ -95,6 +95,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
       		
   	end    
 })
+--PREMADE
 local Tab = Window:MakeTab({
 	Name = "PREMADE",
 	Icon = "rbxassetid://4483345998",
@@ -173,7 +174,141 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
   	end    
 })
+Tab:AddButton({
+	Name = "my cock is long ngl",
+	Callback = function()
+      		 	local args = {
+    [1] = "my cock is long пgl",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+--EMOJI ART
+local Tab = Window:MakeTab({
+	Name = "emoji art",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Dick",
+	Callback = function()
+      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
 
+local args = {
+    [1] = "⚫⚫⚫🔴⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "⚫⚫⚫⚪⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "⚫⚫⚫⚪⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "⚫⚫⚫⚪⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+    
+  	end    
+})
+Tab:AddButton({
+	Name = "Nazi",
+	Callback = function()
+      		
+local args = {
+    [1] = "🔴🔴🔴🔴🔴🔴🔴🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "🔴⚫⚫⚫🔴🔴⚫🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "🔴🔴🔴⚫🔴🔴⚫🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "🔴🔴🔴⚫🔴🔴⚫🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "🔴⚫⚫⚫⚫⚫⚫🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "🔴⚫🔴⚫🔴🔴🔴🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(3)
+local args = {
+    [1] = "🔴⚫🔴⚫🔴🔴🔴🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "🔴⚫🔴⚫⚫⚫⚫🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+wait(3)
+local args = {
+    [1] = "🔴🔴🔴🔴🔴🔴🔴🔴",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+
+
+
+
+  	end    
+})
 
     
 
@@ -219,5 +354,22 @@ Tab:AddButton({
       		    else
       		       IncorrectKeyNotification() 
       		 end
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Dont know key?",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Click to copy discord for key",
+	Callback = function()
+      		setclipboard("https://discord.gg/WZm4qMvXPQ")
+      		OrionLib:MakeNotification({
+	Name = "Copied!",
+	Content = "Copied Discord link",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
   	end    
 })
