@@ -415,7 +415,76 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 
   	end    
 })
+Tab:AddButton({
+	Name = "Pistol",
+	Callback = function()
+      		      		 local args = {
+    [1] = "⚪⚪⚪⚪⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
+
+local args = {
+    [1] = "⚪⚫⚫⚫⚫⚫⚫⚪⚪⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚪⚫⚫⚫⚫⚫⚫⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚪⚫⚫⚪⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚪⚫⚫⚪⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚪⚪⚪⚪⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ak-47",
+	Callback = function()
+local args = {
+    [1] = "︻╦╤─",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
 end --ENDING FOR ACTUAL HUB
 -- Verify if its correct key stuff
 function CorrectKeyNotification()
@@ -477,4 +546,3 @@ Tab:AddButton({
 })
   	end    
 })
-
