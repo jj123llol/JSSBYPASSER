@@ -20,6 +20,13 @@ _G.KeyInput = "string"
 function MakeScriptHub()
     local Window = OrionLib:MakeWindow({Name = "MAIN", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
     local Tab = Window:MakeTab({
+	Name = "Announcments",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddParagraph("Changelog","Made into a hub.")
+Tab:AddParagraph("Credits","Originally made by sacred#9060, Fixed and maintained by jude#1745 (also added a TON more words and other stuff")
+    local Tab = Window:MakeTab({
 	Name = "Chat bypasser",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -87,6 +94,8 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
   	end    
 })
 
+
+
 end --ENDING FOR ACTUAL HUB
 -- Verify if its correct key stuff
 function CorrectKeyNotification()
@@ -124,8 +133,8 @@ Tab:AddButton({
 	Name = "Check Key!",
 	Callback = function()
       		if _G.KeyInput == _G.Key then
-      		    MakeScriptHub()
       		    CorrectKeyNotification()
+      		    MakeScriptHub()
       		    else
       		       IncorrectKeyNotification() 
       		 end
