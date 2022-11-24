@@ -163,6 +163,16 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
   	end    
 })
+Tab:AddButton({
+	Name = "nice cock",
+	Callback = function()
+      		 	local args = {
+    [1] = "niсе cock",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
 
 
     
