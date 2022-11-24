@@ -88,6 +88,12 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
       	
       	wait(1)
       	local args = {
+    [1] = "discord",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+ 	wait(1)
+      	local args = {
     [1] = "Join .gg/WZm4qMvXPQ",
     [2] = "All"
 }
