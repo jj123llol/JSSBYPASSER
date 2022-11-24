@@ -86,23 +86,56 @@ Tab:AddButton({
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
       	
-      	wait(1)
-      	local args = {
-    [1] = "discord",
-    [2] = "All"
-}
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
  	wait(1)
       	local args = {
-    [1] = "Join .gg/WZm4qMvXPQ",
+    [1] = "join .gg/WZm4qMvXPQ",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
       		
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "PREMADE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Mostly for 2nd method/RUN CHAT BYPASS BEFORE USING"
+})
+Tab:AddButton({
+	Name = "suck my cock",
+	Callback = function()
+      		 	local args = {
+    [1] = "suck my cock",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "small cock",
+	Callback = function()
+      		 	local args = {
+    [1] = "small cock",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "small dick",
+	Callback = function()
+      		 	local args = {
+    [1] = "small dick",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
 
 
+    
 
 end --ENDING FOR ACTUAL HUB
 -- Verify if its correct key stuff
