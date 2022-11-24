@@ -1,4 +1,10 @@
 --credits to Orion library
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
