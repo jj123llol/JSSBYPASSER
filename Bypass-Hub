@@ -14,7 +14,7 @@ OrionLib:MakeNotification({
 
 
 --KEY SHIT
-_G.Key = "Idontknowhowtoenterakey"
+_G.Key = "Mycockhurts"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
