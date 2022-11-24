@@ -101,7 +101,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Mostly for 2nd method/RUN CHAT BYPASS BEFORE USING"
+	Name = "Mostly for 2nd version/RUN CHAT BYPASS BEFORE USING"
 })
 Tab:AddButton({
 	Name = "suck my cock",
