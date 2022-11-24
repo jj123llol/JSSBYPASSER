@@ -307,33 +307,38 @@ Tab:AddButton({
 	Name = "Heart <3",
 	Callback = function()
       		 local args = {
-    [1] = "⚪⚪⚪⚪⚪⚪⚪",
+    [1] = "⚪⚪⚪⚪⚪⚪⚪⚪⚪",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local args = {
-    [1] = "⚪⚪🔴⚪🔴⚪⚪",
+    [1] = "⚪⚪🔴🔴⚪🔴🔴⚪⚪",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local args = {
-    [1] = "⚪🔴🔴🔴🔴🔴⚪",
+    [1] = "⚪🔴🔴🔴🔴🔴🔴🔴⚪",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 local args = {
-    [1] = "⚪⚪🔴🔴🔴⚪⚪",
+    [1] = "⚪⚪🔴🔴🔴🔴🔴⚪⚪",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local args = {
-    [1] = "⚪⚪⚪🔴⚪⚪⚪",
+    [1] = "⚪⚪⚪🔴🔴🔴⚪⚪⚪",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local args = {
-    [1] = "⚪⚪⚪⚪⚪⚪⚪",
+    [1] = "⚪⚪⚪⚪🔴⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚪⚪⚪⚪⚪⚪⚪⚪⚪",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
@@ -382,17 +387,11 @@ local args = {
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
-
-
-
-
-
-
-
-
-
-
+  		      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
   	end    
 })
 Tab:AddButton({
