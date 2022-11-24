@@ -74,7 +74,9 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
+local Section = Tab:AddSection({
+	Name = "What script is that 🤓"
+})
 Tab:AddButton({
 	Name = "Say our Discord in chat.",
 	Callback = function()
