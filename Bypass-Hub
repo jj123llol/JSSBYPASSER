@@ -364,7 +364,57 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 
   	end    
 })
-    
+    Tab:AddButton({
+	Name = "HI",
+	Callback = function()
+      		      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "⚫⚪⚫⚫⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚪⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚪⚪⚪⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚪⚫⚪⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚪⚫⚪⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+
+
+
+
+
+
+
+
+  	end    
+})
 
 end --ENDING FOR ACTUAL HUB
 -- Verify if its correct key stuff
@@ -427,3 +477,4 @@ Tab:AddButton({
 })
   	end    
 })
+
