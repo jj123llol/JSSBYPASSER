@@ -133,6 +133,36 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
   	end    
 })
+Tab:AddButton({
+	Name = "i will rape you",
+	Callback = function()
+      		 	local args = {
+    [1] = "i will rape you",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "i рцт my cock ¡п a blender",
+	Callback = function()
+      		 	local args = {
+    [1] = "i рцт my cock ¡п a blender",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "i рцт my dick ¡п a blender",
+	Callback = function()
+      		 	local args = {
+    [1] = "i рцт my dick ¡п a blender",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
 
 
     
