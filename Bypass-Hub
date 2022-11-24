@@ -6,6 +6,8 @@
 --DONT LEAK MY SCRIPT SKIDS
 --DONT LEAK MY SCRIPT SKIDS
 
+
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Keysystem", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroEnabled = false})
@@ -448,6 +450,233 @@ Tab:AddButton({
 	Callback = function()
 local args = {
     [1] = "︻╦╤─",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Smilely face",
+	Callback = function()
+      	      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚪⚫⚫⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚪⚪⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Sad face",
+	Callback = function()
+      	      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚪⚪⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚪⚫⚫⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "Mad face",
+	Callback = function()
+      		      		 local args = {
+    [1] = "⚫⚪⚫⚫⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚪⚫⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚪⚪⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚪⚫⚫⚫⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "Person",
+	Callback = function()
+      		      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚪⚪⚪⚪⚪⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚪⚫⚪⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
+Tab:AddButton({
+	Name = "Person with dick",
+	Callback = function()
+      		      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚪⚪⚪⚪⚪⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚪⚪⚪⚪⚪⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚪⚫⚪⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
