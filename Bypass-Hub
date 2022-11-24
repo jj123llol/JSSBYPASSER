@@ -144,7 +144,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
   	end    
 })
 Tab:AddButton({
-	Name = "i рцт my cock ¡п a blender",
+	Name = "i put my cock in a blender",
 	Callback = function()
       		 	local args = {
     [1] = "i рцт my cock ¡п a blender",
@@ -154,7 +154,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
   	end    
 })
 Tab:AddButton({
-	Name = "i рцт my dick ¡п a blender",
+	Name = "i рut my dick in a blender",
 	Callback = function()
       		 	local args = {
     [1] = "i рцт my dick ¡п a blender",
