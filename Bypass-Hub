@@ -60,6 +60,31 @@ Tab:AddButton({
 })
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "Advertise",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Say our Discord in chat.",
+	Callback = function()
+      	local args = {
+    [1] = "For chat bypasser",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+      	
+      	wait(1)
+      	local args = {
+    [1] = "Join .gg/WZm4qMvXPQ",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+      		
+  	end    
+})
+
 end --ENDING FOR ACTUAL HUB
 
 function CorrectKeyNotification()
