@@ -24,7 +24,7 @@ function MakeScriptHub()
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Changelog","Made into a hub.")
+Tab:AddParagraph("Changelog","Added Premade and emoji art.")
 Tab:AddParagraph("Credits","was originally posted by sacred#9060  in a discord server and was broken,Fixed and maintained by jude#1745 (also added a TON more words and other stuff")
     local Tab = Window:MakeTab({
 	Name = "Chat bypasser",
