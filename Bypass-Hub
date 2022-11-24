@@ -184,11 +184,24 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
   	end    
 })
+Tab:AddButton({
+	Name = "For free robux go to pornhub.com",
+	Callback = function()
+      		 	local args = {
+    [1] = "fоя fяее robux goto www. pornhub .com",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
 --EMOJI ART
 local Tab = Window:MakeTab({
 	Name = "emoji art",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Dont say anything in chat before pressing"
 })
 Tab:AddButton({
 	Name = "Dick",
@@ -249,25 +262,25 @@ local args = {
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-wait(3)
+
 local args = {
     [1] = "🔴⚫⚫⚫🔴🔴⚫🔴",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-wait(3)
+
 local args = {
     [1] = "🔴🔴🔴⚫🔴🔴⚫🔴",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-wait(3)
+
 local args = {
     [1] = "🔴🔴🔴⚫🔴🔴⚫🔴",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-wait(3)
+
 local args = {
     [1] = "🔴⚫⚫⚫⚫⚫⚫🔴",
     [2] = "All"
@@ -285,6 +298,8 @@ local args = {
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+wait(3)
 local args = {
     [1] = "🔴⚫🔴⚫⚫⚫⚫🔴",
     [2] = "All"
@@ -308,7 +323,47 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 
   	end    
 })
+Tab:AddButton({
+	Name = "Heart <3",
+	Callback = function()
+      		 local args = {
+    [1] = "⚪⚪⚪⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚪⚪🔴⚪🔴⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚪🔴🔴🔴🔴🔴⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
+local args = {
+    [1] = "⚪⚪🔴🔴🔴⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚪⚪⚪🔴⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚪⚪⚪⚪⚪⚪⚪",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+
+
+
+
+  	end    
+})
     
 
 end --ENDING FOR ACTUAL HUB
