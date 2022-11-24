@@ -1,3 +1,5 @@
+--credits to Orion library
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Keysystem", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroEnabled = false})
@@ -11,7 +13,7 @@ OrionLib:MakeNotification({
 
 
 
-
+--KEY SHIT
 _G.Key = "Idontknowhowtoenterakey"
 _G.KeyInput = "string"
 
@@ -86,7 +88,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 })
 
 end --ENDING FOR ACTUAL HUB
-
+-- Verify if its correct key stuff
 function CorrectKeyNotification()
 OrionLib:MakeNotification({
 	Name = "Correct Key!",
