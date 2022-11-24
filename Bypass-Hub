@@ -274,13 +274,13 @@ local args = {
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
+wait(3)
 local args = {
     [1] = "🔴🔴🔴⚫🔴🔴⚫🔴",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
+wait(3)
 local args = {
     [1] = "🔴⚫⚫⚫⚫⚫⚫🔴",
     [2] = "All"
@@ -299,7 +299,7 @@ local args = {
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
-wait(3)
+wait(4)
 local args = {
     [1] = "🔴⚫🔴⚫⚫⚫⚫🔴",
     [2] = "All"
