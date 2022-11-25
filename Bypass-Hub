@@ -997,42 +997,42 @@ Tab:AddButton({
 	Name = "Degale",
 	Callback = function()
       		      		 local args = {
-    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 
 local args = {
-    [1] = "⚫🔴⚪⚪⚫⚫⚫⚫⚫⚫⚫⚪⚫",
+    [1] = "⚫🔴⚪⚪⚫⚫⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 local args = {
-    [1] = "⚫⚪⚪🔴⚪⚪⚪⚪⚪⚪⚪⚪⚫",
+    [1] = "⚫⚪⚪🔴⚪⚪⚪⚪⚪⚪⚪⚪⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 local args = {
-    [1] = "⚫⚫⚪🔴🔴⚫⚪⚫⚫⚫⚫⚫⚫",
+    [1] = "⚫⚫⚪🔴🔴⚫⚪⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
 local args = {
-    [1] = "⚫⚫⚫🔴🔴⚪⚪⚫⚫⚫⚫⚫⚫",
+    [1] = "⚫⚫⚫🔴🔴⚪⚪⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local args = {
-    [1] = "⚫⚫⚫🔴🔴⚫⚫⚫⚫⚫⚫⚫⚫",
+    [1] = "⚫⚫⚫🔴🔴⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 local args = {
-    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫smoked⚫",
     [2] = "All"
 }
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
@@ -1105,6 +1105,4 @@ Tab:AddButton({
 })
   	end    
 })
-
-
 
