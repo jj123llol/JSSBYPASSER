@@ -22,7 +22,7 @@ OrionLib:MakeNotification({
 
 
 --KEY SHIT
-_G.Key = "Mycockhurts"
+_G.Key = "trivioxical"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
