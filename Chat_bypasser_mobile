@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+
+local Window = Library.CreateLib(" Judes bypasser Mobile", "DarkTheme")
+local Tab = Window:NewTab("Bypasser")
+local Section = Tab:NewSection("Bypassers")
+Section:NewButton("Run 2nd version", "Best version in oppinion", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/2nd_version"))() 
+end)
