@@ -1,11 +1,3 @@
---if you leak this your parents left and you get no bitches
---DONT LEAK MY SCRIPT SKIDS
---DONT LEAK MY SCRIPT SKIDS
---DONT LEAK MY SCRIPT SKIDS
---DONT LEAK MY SCRIPT SKIDS
---DONT LEAK MY SCRIPT SKIDS
---DONT LEAK MY SCRIPT SKIDS
-
 --credits to Orion library
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
@@ -33,7 +25,7 @@ function MakeScriptHub()
 	PremiumOnly = false
 })
 Tab:AddParagraph("Sheds bypasser Dont got shit on us","")
-Tab:AddParagraph("Changelog","Added Premade and emoji art")
+Tab:AddParagraph("Changelog","Added ( :| ) face ")
 Tab:AddParagraph("Credits","was originally posted by sacred#9060  in a discord server and was broken,Fixed and maintained by jude#1745 (also added a TON more words and other stuff")
     local Tab = Window:MakeTab({
 	Name = "Chat bypasser",
@@ -1173,7 +1165,51 @@ local args = {
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
   	end    
 })
+Tab:AddButton({
+	Name = ":|",
+	Callback = function()
+      		      		 local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 
+
+local args = {
+    [1] = "⚫⚫⚪⚪⚫⚪⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚪⚪⚫⚪⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚪⚪⚪⚪⚪⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+local args = {
+    [1] = "⚫⚫⚫⚫⚫⚫⚫⚫⚫",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+  	end    
+})
 
 end --ENDING FOR ACTUAL HUB
 -- Verify if its correct key stuff
