@@ -31,33 +31,3 @@ local Section = Tab:NewSection("Join discord")
 Section:NewButton("Copy discord", "copies discord", function()
     setclipboard("https://discord.gg/WZm4qMvXPQ")
 end)
-local Tab = Window:NewTab("premade")
-local Section = Tab:NewSection("Made for 2nd version of bypasser")
-Section:NewButton("suck my cock", "chats it", function()
-    	local args = {
-    [1] = "suck my cock",
-    [2] = "All"
-}
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-end)
-Section:NewButton("small cock", "chats it", function()
-    	local args = {
-    [1] = "small cock",
-    [2] = "All"
-}
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-end)
-Section:NewButton("small dick", "chats it", function()
-    	local args = {
-    [1] = "small dick",
-    [2] = "All"
-}
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-end)
-Section:NewButton("i will rape you", "chats it", function()
-    	local args = {
-    [1] = "i will rape you",
-    [2] = "All"
-}
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-end)
