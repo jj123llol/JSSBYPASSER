@@ -1,9 +1,63 @@
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+--DONT LEAK MY SCRIPT SKIDS
+
+
+
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 
 local Window = Library.CreateLib(" Judes bypasser Mobile", "DarkTheme")
 local Tab = Window:NewTab("Bypasser")
 local Section = Tab:NewSection("Bypassers")
+Section:NewButton("Run latest version", "second best in opinion", function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/Bypass-Hub"))()
+end)
 Section:NewButton("Run 2nd version", "Best version in oppinion", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/2nd_version"))() 
+end)
+Section:NewButton("Run 1st version", "worst version ", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/jj123llol/JSSBYPASSER/main/1st_version"))()
+
+end)
+local Tab = Window:NewTab("Discord")
+local Section = Tab:NewSection("Join discord")
+Section:NewButton("Copy discord", "copies discord", function()
+    setclipboard("https://discord.gg/WZm4qMvXPQ")
+end)
+local Tab = Window:NewTab("premade")
+local Section = Tab:NewSection("Made for 2nd version of bypasser")
+Section:NewButton("suck my cock", "chats it", function()
+    	local args = {
+    [1] = "suck my cock",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+end)
+Section:NewButton("small cock", "chats it", function()
+    	local args = {
+    [1] = "small cock",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+end)
+Section:NewButton("small dick", "chats it", function()
+    	local args = {
+    [1] = "small dick",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+end)
+Section:NewButton("i will rape you", "chats it", function()
+    	local args = {
+    [1] = "i will rape you",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 end)
