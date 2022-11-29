@@ -710,7 +710,7 @@ ACLWarning:Destroy()
 if OldSetting then
     StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
 end
-Notify("Loaded Successfully", "Anti Chat and Screenshot Logger Loaded! CREDIT : sacred#9060", 15)
+Notify("Loaded Successfully", "Anti Chat and Screenshot Logger Loaded! CREDIT : anthony", 15)
 print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
 
 Notify("Psst", "Most work done  by jude <3", 15)
