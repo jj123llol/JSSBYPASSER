@@ -1,6 +1,6 @@
 --credits to Orion library
 
-
+getgenv().Advertise = true;
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
@@ -27,7 +27,7 @@ function MakeScriptHub()
 	PremiumOnly = false
 })
 Tab:AddParagraph("Sheds bypasser Dont got shit on us","")
-Tab:AddParagraph("Changelog","Added ( :| ) face ")
+Tab:AddParagraph("Changelog","Added AutoAdvertise ")
 Tab:AddParagraph("Credits","Fixed and maintained by jude#1745 (also added a TON more words and other stuff")
     local Tab = Window:MakeTab({
 	Name = "Chat bypasser",
@@ -406,6 +406,48 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
       		
   	end    
 })
+
+
+
+Tab:AddToggle({
+	Name = "Auto advertise",
+	Default = (bool),
+	Callback = function(bool)
+		getgenv().Advertise = bool
+		print(bool)
+		if bool then
+		Advertise()
+		end
+	end    
+    
+})
+
+
+
+function Advertise()
+    while getgenv().Advertise == true do
+        
+        	local args = {
+    [1] = "For chat bypasser",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+      	
+ 	wait(1)
+      	local args = {
+    [1] = "join .gg/WZm4qMvXPQ",
+    [2] = "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(10)
+end
+end
+
+
+
+
+
+
 --PREMADE
 local Tab = Window:MakeTab({
 	Name = "PREMADE",
